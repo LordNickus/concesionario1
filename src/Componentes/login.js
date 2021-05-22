@@ -24,9 +24,9 @@ export default function FormDialog() {
       <Button variant="contained" color="primary" onClick={handleClickOpen}>
         Soy Usuario
       </Button>
-      <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
+      <Dialog  open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
         <DialogTitle id="form-dialog-title">LogIn</DialogTitle>
-        <DialogContent>
+        <DialogContent >
           <DialogContentText>
             Ingresa el usuario y contraseña que te otorgo la concesionaria.
           </DialogContentText>
@@ -47,11 +47,11 @@ export default function FormDialog() {
             fullWidth
           />
         </DialogContent>
-        <DialogActions>
+        <DialogActions className="Dialog">
           <Button onClick={handleClose} color="primary">
             Cancel
           </Button>
-          <Button onClick={handleClose} color="primary">
+          <Button onClick={handleClose} color="inherit">
           {<Link to='/Secciones/Usuario'>Confirmar</Link>}
           </Button>
         </DialogActions>

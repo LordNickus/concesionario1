@@ -9,7 +9,7 @@ const Initial = ()=>{
         
         <FormDialog />
         <p>Si hace click se abre el LOGIN </p>
-        <Button variant='contained'>{<Link to='/Secciones/Visitante'>Soy Visitante</Link>}</Button>
+        <Button variant="contained" color="primary"> {<Link to='/Secciones/Visitante'>Soy Visitante</Link>}</Button>
         <p>Si hace click se abre la pagina Visitante</p>
     </div>)
 }

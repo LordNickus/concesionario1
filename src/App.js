@@ -10,6 +10,7 @@ import Planes from './Secciones/Planes';
 import Usuario from './Secciones/Usuario';
 import Visitante from './Secciones/Visitante';
 import Initial from './Initial';
+import PostVenta from './Secciones/PostVenta';
 
 function App() {
   return(
@@ -17,10 +18,10 @@ function App() {
          <Switch>
          {/* <Route path="Secciones/">
               <Carrito />
-          </Route>
-         <Route path="Secciones/">
-              <MaterialYoutube />
           </Route> */}
+          <Route path="/Secciones/PostVenta">
+              <PostVenta />
+          </Route>
 
           <Route path="/Secciones/Tradicional">
               <Tradicional />

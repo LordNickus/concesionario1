@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Button from '@material-ui/core/Button';
 
 const Visitante = ()=>{
    return ( <div className='App-header'>
@@ -11,6 +12,9 @@ const Visitante = ()=>{
         // componentes
         <h3><a>Asesorate</a></h3>
     // componentes
+    <div className='BotonInicio'>
+        <Button variant="contained" color="secondary">{<Link to='/'>Inicio</Link>}</Button>
+     </div>
     </div>)
 }
 

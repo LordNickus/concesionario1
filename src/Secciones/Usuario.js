@@ -14,9 +14,12 @@ const Usuario = ()=> {
     
     <Button variant="contained" color="primary">{<Link to="Administracion">Administracion</Link>}</Button>
     <br/>
-    <Button variant="contained" color="primary">{<Link to="/PosVenta">PostVenta</Link>}</Button>
+    <Button variant="contained" color="primary">{<Link to="PostVenta">PostVenta</Link>}</Button>
      
     </div>
+    <div className='BotonInicio'>
+        <Button variant="contained" color="secondary">{<Link to='/'>Inicio</Link>}</Button>
+     </div>
 </div>
 )
 }

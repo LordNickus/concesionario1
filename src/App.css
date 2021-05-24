@@ -37,11 +37,11 @@ a{
   height: 150px;
 }
 
-.imgTop{
+/* .imgTop{
   width: 100%; 
   display: flex;
   flex-direction: top;
-}
+} */
 .Dialog{
   background-color:grey;
 }

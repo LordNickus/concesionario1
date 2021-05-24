@@ -7,7 +7,7 @@ const Usuario = ()=> {
     return (
 <div>
     <div className="headerUsuario">
-        <img className= "imgTop" src="../imagenes/peugeot1.jpg" alt="imagen1" height="250"/>
+        <img className= "imgTop" src="../peugeot1.jpg" alt="imagen1" width="150" height="250"/>
     </div>
     <div className="App-header">
     <h1>Seleccione 1 opcion</h1>

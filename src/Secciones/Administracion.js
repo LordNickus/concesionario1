@@ -11,12 +11,12 @@ const Administracion = ()=> {
         <BarraTop/>
     </div>
     <div className='App-body'>
-    <h1>Seleccione una opcion</h1>
-    
+    <img src="../administracion.jpg" alt="img2" className="App-img" width="383" height="115"/>
+    <div className="Botones">
     <Button variant="contained" color="primary">{<Link to='Planes'>Planes de Ahorro</Link>}</Button>
-    <br/>
+        <br/>
     <Button variant="contained" color="primary">{<Link to='Tradicional'>Tradicional</Link>}</Button>
-    
+    </div>
     </div>
     <div>
     <BottomNav />

@@ -33,11 +33,18 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
   
 }
+.Botones{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .App-img {
   /* display: flex; */
   width:90%;
@@ -81,6 +88,6 @@ a{
   display: flex;
   /* flex-direction: bottom; */
   align-items: bottom;
-  justify-content:center;
-  /* padding: 12px; */
+  justify-content: center;
+  padding-top: 54px;
 }

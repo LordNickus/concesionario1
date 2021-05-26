@@ -16,8 +16,7 @@ const Initial = ()=>{
         
         </div>
         <div className='FooterInitial'>
-            <p>Realizado por...</p>
-            <img src="./logoDC.png" width="55" height="30"/>
+             <img src="./logoDC.png" width="55" height="30"/>
         </div>
     </div>)
 }

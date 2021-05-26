@@ -11,12 +11,12 @@ const Usuario = ()=> {
         <BarraTop/>
     </div>
     <div className="App-body">
-    <img src="../peugeot1.jpg" alt="img1"className="App-img"/>
-    <br/>
+    <img src="../peugeot1.jpg" alt="img1"className="App-img" width="383" height="115"/>
+    <div className="Botones"> 
     <Button variant="contained" color="primary">{<Link to="Administracion">Administracion</Link>}</Button>
     <br/>
     <Button variant="contained" color="primary">{<Link to="PostVenta">PostVenta</Link>}</Button>
-     
+    </div>
     </div>
     <div>
     <BottomNav />

@@ -10,9 +10,9 @@ const Usuario = ()=> {
     <div>
         <BarraTop/>
     </div>
-    <div className="App-header">
+    <div className="App-body">
     <img src="../peugeot1.jpg" alt="img1"className="App-img"/>
-    
+    <br/>
     <Button variant="contained" color="primary">{<Link to="Administracion">Administracion</Link>}</Button>
     <br/>
     <Button variant="contained" color="primary">{<Link to="PostVenta">PostVenta</Link>}</Button>

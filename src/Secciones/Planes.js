@@ -10,7 +10,7 @@ const Planes =()=> {
             <div>
         <BarraTop/>
     </div>
-    <div className='App-header'> 
+    <div className='App-body'> 
     <h1>Seleccione alguna opcion</h1>
     
     <h3><a>Suscripcion</a></h3>

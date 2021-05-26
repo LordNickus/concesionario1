@@ -28,7 +28,7 @@ const useStyles = makeStyles({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    
+    paddingBottom: "6px"
   },
 });
 

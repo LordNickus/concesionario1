@@ -10,7 +10,7 @@ const Tradicional = ()=>{
     <div>
         <BarraTop/>
     </div>
- <div className='App-header'>
+ <div className='App-body'>
     <h1>Seleccione one opcion</h1>
     
     <h3><a>Cierre operacion</a></h3>

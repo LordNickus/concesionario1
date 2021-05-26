@@ -13,7 +13,7 @@ a{
 }
 .App-initial{
   background-color:white;
-  /* min-height: 65vh; */
+  min-height: 55vh;
   padding-bottom: 12px;
   display: flex;
   flex-direction: column;
@@ -27,9 +27,9 @@ a{
   pointer-events: none;
 }
 
-.App-header {
+.App-body {
   background-color:black;
-  /* min-height: 65vh; */
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,9 +78,9 @@ a{
 
 } */
 .FooterInitial{
-  display: inline;
-  flex-direction: bottom;
-  align-items: center;
-  justify-content:right;
+  display: flex;
+  /* flex-direction: bottom; */
+  align-items: bottom;
+  justify-content:center;
   /* padding: 12px; */
 }

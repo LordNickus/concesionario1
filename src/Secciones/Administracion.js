@@ -10,7 +10,7 @@ const Administracion = ()=> {
         <div>
         <BarraTop/>
     </div>
-    <div className='App-header'>
+    <div className='App-body'>
     <h1>Seleccione una opcion</h1>
     
     <Button variant="contained" color="primary">{<Link to='Planes'>Planes de Ahorro</Link>}</Button>

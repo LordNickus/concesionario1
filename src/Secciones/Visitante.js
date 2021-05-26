@@ -10,7 +10,7 @@ const Visitante = ()=>{
       <div>
       <BarraTop/>
   </div>
-  <div className='App-header'>
+  <div className='App-body'>
         <h1>Quienes somos</h1>
         <p>"texto quienes somos bla bla bla..."</p>
         <h3><a>Historia de la marca</a></h3>

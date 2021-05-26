@@ -1,25 +1,26 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-
+import BarraTop from '../Componentes/barraTop';
+import BottomNav from '../Componentes/barraBottom';
 
 const Usuario = ()=> {
     return (
 <div>
-    <div className="headerUsuario">
-        <img className= "imgTop" src="../peugeot1.jpg" alt="imagen1" width="150" height="250"/>
+    <div>
+        <BarraTop/>
     </div>
     <div className="App-header">
-    <h1>Seleccione 1 opcion</h1>
+    <img src="../peugeot1.jpg" alt="img1"className="App-img"/>
     
     <Button variant="contained" color="primary">{<Link to="Administracion">Administracion</Link>}</Button>
     <br/>
     <Button variant="contained" color="primary">{<Link to="PostVenta">PostVenta</Link>}</Button>
      
     </div>
-    <div className='BotonInicio'>
-        <Button variant="contained" color="secondary">{<Link to='/'>Inicio</Link>}</Button>
-     </div>
+    <div>
+    <BottomNav />
+    </div>
 </div>
 )
 }

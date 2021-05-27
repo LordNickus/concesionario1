@@ -11,9 +11,22 @@ import Usuario from './Secciones/Usuario';
 import Visitante from './Secciones/Visitante';
 import Initial from './Initial';
 import PostVenta from './Secciones/PostVenta';
+import {createMuiTheme,ThemeProvider} from '@material-ui/core/styles';
+
+const Style = createMuiTheme({
+    palette:{
+        primary:{
+            main: '#000'
+        },
+        secondary:{
+            main: '#999'
+        }
+    }
+})
 
 function App() {
   return(
+    <ThemeProvider theme={Style}>
       <Router>
          <Switch>
          {/* <Route path="Secciones/">
@@ -49,7 +62,7 @@ function App() {
 
          </Switch>
       </Router>
-
+    </ThemeProvider>
       
   );
 }

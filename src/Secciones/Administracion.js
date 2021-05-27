@@ -13,9 +13,9 @@ const Administracion = ()=> {
     <div className='App-body'>
     <img src="../administracion.jpg" alt="img2" className="App-img" width="383" height="115"/>
     <div className="Botones">
-    <Button variant="contained" color="primary">{<Link to='Planes'>Planes de Ahorro</Link>}</Button>
+    <Button variant="contained" color="secondary">{<Link to='Planes'>Planes de Ahorro</Link>}</Button>
         <br/>
-    <Button variant="contained" color="primary">{<Link to='Tradicional'>Tradicional</Link>}</Button>
+    <Button variant="contained" color="secondary">{<Link to='Tradicional'>Tradicional</Link>}</Button>
     </div>
     </div>
     <div>

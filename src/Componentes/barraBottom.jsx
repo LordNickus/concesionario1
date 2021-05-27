@@ -28,8 +28,8 @@ const useStyles = makeStyles({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    paddingBottom: "6px"
-  },
+    paddingBottom: "6px",
+    },
 });
 
 export default function BottomNav() {
@@ -38,10 +38,10 @@ export default function BottomNav() {
 
   return (
       <div className={classes.root}>
-    <IconButton color="primary" aria-label="Personaliza"><DirectionsCarOutlinedIcon /></IconButton>
-    <IconButton color="primary" aria-label="Mapa"><RoomTwoToneIcon /></IconButton>
-    <IconButton color="primary" aria-label="Usuario"><PermIdentityOutlinedIcon /></IconButton>
-    <IconButton color="primary" aria-label="Buscar"><SearchTwoToneIcon /></IconButton>
+    <IconButton color="secondary" aria-label="Personaliza"><DirectionsCarOutlinedIcon /></IconButton>
+    <IconButton color="secondary" aria-label="Mapa"><RoomTwoToneIcon /></IconButton>
+    <IconButton color="secondary" aria-label="Usuario"><PermIdentityOutlinedIcon /></IconButton>
+    <IconButton color="secondary" aria-label="Buscar"><SearchTwoToneIcon /></IconButton>
     
     
     

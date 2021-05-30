@@ -18,7 +18,7 @@ const Administracion = ()=> {
     <Button variant="contained" color="secondary">{<Link to='Tradicional'>Tradicional</Link>}</Button>
     </div>
     </div>
-    <div>
+    <div className='App-barraBottom'>
     <BottomNav />
     </div>
 </div>

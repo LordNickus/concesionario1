@@ -20,7 +20,7 @@ const Tradicional = ()=>{
    
   
 </div>
-<div>
+<div className='App-barraBottom'>
     <BottomNav />
     </div>
         </div>)}

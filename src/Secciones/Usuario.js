@@ -18,7 +18,7 @@ const Usuario = ()=> {
     <Button variant="contained" color="secondary">{<Link to="PostVenta">PostVenta</Link>}</Button>
     </div>
     </div>
-    <div>
+    <div className='App-barraBottom'>
     <BottomNav />
     </div>
 </div>

@@ -21,7 +21,7 @@ const PostVenta = ()=> {
     <br/>
     <Button variant="contained" color="primary">{<Link to='Tradicional'>Encuesta Satisfaccion</Link>}</Button>
     </div>
-    <div>
+    <div className='App-barraBottom'>
     <BottomNav />
     </div>
         

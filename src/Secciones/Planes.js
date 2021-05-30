@@ -23,7 +23,7 @@ const Planes =()=> {
     // Componentes
   
 </div>
-<div>
+<div className='App-barraBottom'>
     <BottomNav />
     </div>
      </div>

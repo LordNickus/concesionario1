@@ -38,15 +38,12 @@ export default function BottomNav() {
 
   return (
       <div className={classes.root}>
-    <IconButton color="secondary" aria-label="Personaliza"><DirectionsCarOutlinedIcon /></IconButton>
-    <IconButton color="secondary" aria-label="Mapa"><RoomTwoToneIcon /></IconButton>
-    <IconButton color="secondary" aria-label="Usuario"><PermIdentityOutlinedIcon /></IconButton>
-    <IconButton color="secondary" aria-label="Buscar"><SearchTwoToneIcon /></IconButton>
+        <IconButton color="secondary" aria-label="Personaliza"><DirectionsCarOutlinedIcon /></IconButton>
+        <IconButton color="secondary" aria-label="Mapa"><RoomTwoToneIcon /></IconButton>
+        <IconButton color="secondary" aria-label="Usuario"><PermIdentityOutlinedIcon /></IconButton>
+        <IconButton color="secondary" aria-label="Buscar"><SearchTwoToneIcon /></IconButton>
     
-    
-    
-   
-    </div>
+      </div>
     //   <BottomNavigation value={value}
     //   onChange={(event, newValue) => {
     //     setValue(newValue);

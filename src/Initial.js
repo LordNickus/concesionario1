@@ -29,7 +29,7 @@ const Initial = ()=>{
         
         </div>
         <div className='FooterInitial'>
-             <img src="./logoDC.png" width="55" height="30"/>
+             <img src="./logoDA.jpeg" width="125" height="25"/>
         </div>
     </div>
     </ThemeProvider>

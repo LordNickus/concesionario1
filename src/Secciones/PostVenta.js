@@ -11,7 +11,7 @@ const PostVenta = ()=> {
         <BarraTop/>
     </div>
     <div className='App-body'>
-    <h1>Seleccione una opcion por favor</h1>
+    <h1>Post-Venta</h1>
     
     <Button variant="contained" color="primary">{<Link to='Planes'>Agendamiento de Servicio</Link>}</Button>
     <br/>

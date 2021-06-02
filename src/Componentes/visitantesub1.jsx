@@ -73,6 +73,9 @@ export default function Visitantesub1 (){
 
             Su evolución no frena ahí, ya que en 2010 presentó el Peugeot EX1, un coche 100% eléctrico que batió records de velocidad. A él se unieron el Peugeot RCZ y Peugeot iOn.
             </p>
+            <div className='CaraNueva'>
+            <img src='../caraNueva1.png' alt='caraNueva1' width='481px' />
         </div>
+    </div>           
         )
 }

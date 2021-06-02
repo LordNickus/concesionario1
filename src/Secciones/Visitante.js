@@ -11,14 +11,14 @@ const Visitante = ()=>{
          <div>
             <BarraTop/>
          </div>
-         <div className='App-body'>
+            <div className='App-body'>
                <h1>Quienes somos</h1>
                <Visitantesub1 />
                <h1><a>Nuestros modelos</a></h1>
                // componentes
                <h1><a>Asesorate</a></h1>
-            // componentes
-         </div>
+               // componentes
+            </div>
          <div className='App-barraBottom'>
                <BottomNav />
          </div>

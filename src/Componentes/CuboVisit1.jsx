@@ -23,8 +23,8 @@ export default function Cubo1() {
   "slideShadows": true,
   "shadowOffset": 20,
   "shadowScale": 0.94
-}} pagination={true} className="mySwiper">
-  <SwiperSlide><img src="../hpeug1.jpg" /></SwiperSlide><SwiperSlide><img src="../hpeug2.jpg" /></SwiperSlide><SwiperSlide><img src="../hpeug3.jpg" /></SwiperSlide><SwiperSlide><img src="../hpeug1.jpg" /></SwiperSlide>
+}} pagination={true} loop={true} className="mySwiper">
+  <SwiperSlide><img src="../hpeug1.jpg" /></SwiperSlide><SwiperSlide><img src="../hpeug2.jpg" /></SwiperSlide><SwiperSlide><img src="../hpeug3.jpg" /></SwiperSlide><SwiperSlide><img src="../hpeug4.jpg" /></SwiperSlide>
   </Swiper>
     </>
   )

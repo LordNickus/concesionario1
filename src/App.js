@@ -11,6 +11,8 @@ import Usuario from './Secciones/Usuario';
 import Visitante from './Secciones/Visitante';
 import Initial from './Initial';
 import PostVenta from './Secciones/PostVenta';
+import Venta from './Secciones/Venta';
+import Venta1 from './Secciones/Venta1';
 import {createMuiTheme,ThemeProvider} from '@material-ui/core/styles';
 
 const Style = createMuiTheme({
@@ -34,6 +36,12 @@ function App() {
           </Route> */}
           <Route path="/Secciones/PostVenta">
               <PostVenta />
+          </Route>
+          <Route path="/Secciones/Venta1">
+              <Venta1 />
+          </Route>
+          <Route path="/Secciones/Venta">
+              <Venta />
           </Route>
 
           <Route path="/Secciones/Tradicional">
